@@ -1,0 +1,101 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: Century Gothic;
+}
+.main{
+max-width: 1200px;
+margin: auto;
+}
+
+.header{
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://wallup.net/wp-content/uploads/2018/10/04/63846-humor-threadless.jpg);
+
+background-position: center;
+}
+
+
+
+#heading-1,#heading-2,#heading-3{
+	color: #ffffff;
+}
+ 
+
+.container-1, .container-2,.container-3,.container-4 {
+	border:1px solid white;
+	width: 75%;
+	margin: 0 auto;
+	color:#ffffff ;
+	align-items: center;
+	text-align: center;
+}
+.reload-button div{
+    border:1px solid  white;
+	padding:10px;
+	
+}
+.reload-button button{
+	margin:10px;
+	padding:10px;
+	
+}
+
+.flex-box-container-1 ,.flexbox-container-2, .flex-box-rps,.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
+display:flex;
+border: 1px solid white;
+padding:10px;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+display: flex;
+flex-wrap: wrap;
+padding:10px;
+border:1px ;
+align-items: center;
+
+}
+ .flex-box-container-1,.flex-box-rps, .flex-box-result img {
+	border: 1px solid green;
+	box-shadow: 0px 8px 99px 39px rgba(252,249,252,1);
+	margin: 10px;
+
+}
+
+
+
+.flex-box-rps img:hover{
+	box-shadow: -26px 25px 101px 18px rgba(255,255,255,1);
+}
+.flex-blackjack-row-1 ,.flex-blackjack-row-2{
+	background: url('http://cheerspokernh.com/wp-content/uploads/2018/02/bigstock-poker-table-background-26587844-2-1.jpg') center;
+	color: #ffffff;
+}
+.flex-blackjack-row-1 div{
+	border:1px solid white;
+	padding: 10px;
+	flex: 1;
+	flex-wrap: wrap;
+	text-align: center;
+	height: 450px;
+}
+.flex-blackjack-row-1 img{
+	width: 25%;
+	padding: 10px;
+}
+.flex-blackjack-row-2 button{
+	border:1px solid  white;
+	padding:10px;
+	
+}
+.flex-blackjack-row-2 div{
+	border:1px solid  white;
+	padding:10px;
+	
+}
+table ,th,td{
+	padding: 5px;
+	border:1px solid white;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <script src="home.js" ></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	 <link rel="stylesheet"  href="style.css">
+	<title>Stone Paper Scissors</title>
+</head>
+<body class="header">
+
+      <! -- Cat Generator  -->
+      <div class="container-1">
+        
+              <h2 id="heading-1">Challenge : 1 <br>Cat Generator Button</br></h2>
+
+                 <div class="flex-box-container-1">
+        
+                       <div><button class="btn btn-primary" id="hello" onclick="photo1(this)">hello</button></div>
+                       <div><button class="btn btn-danger" id="hii" onclick="photo1(this)">hii</button></div>
+                       <div><button class="btn btn-warning" id="hey" onclick="photo1(this)">hey</button></div>
+                       <div><button class="btn btn-success"  id="hola" onclick="photo1(this)">hola</button></div>
+
+                 </div>
+ 
+                 <div class="flex-box-container-2">
+
+                       <div class="flex-box-result" id="imagediv"></div>
+            
+                 </div> 
+
+          </div>
+
+
+      
+      <! -- STONE PAPER SCISSORS  -->
+
+
+      <div class="container-3">
+      	  <h2  id="heading-2">Challenge : 2 <br> Stone Paper Scissors</h2>
+              <div class="flex-box-rps" id="flex-box-rps-div" >
+
+                    <img id="rock" src="rock.png" height=300 width=300 alt="" onclick="rpsGame(this)">
+                    <img id="paper" src="paper.png" height=300 width=300 alt="" onclick="rpsGame(this)">
+                    <img id="scissors" src="scissors.png" height=300 width=300  alt="" onclick="rpsGame(this)">
+
+              </div>
+              <div class="reload-button">
+                <button class="btn-sm btn-success mr-10 pd-10" onClick="window.location.reload();">Refresh Page</button>
+              </div>
+
+
+      </div>
+
+
+
+       <! -- BLACKJACK GAME  -->
+
+
+
+       <div class="container-4">
+         <h2 id="heading-3">Challenge : 3  BLACKJACK Game</h2>
+         <h3><span id="blackjack-result">Let's Play !!!</span></h3>
+             <div class="flex-blackjack-row-1">
+
+                <div id="your-box"> 
+                   <h2>YOU: <span id="your-blackjack-result">0</span></h2>
+                </div>
+
+                <div id="dealer-box">
+                    <h2>DEALER: <span id="dealer-blackjack-result">0</span></h2>
+                </div>
+
+             </div>
+
+            <div class="flex-blackjack-row-2">
+                <div>
+                     <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">HIT</button>
+                     <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">STAND</button>
+                     <button class="btn-lg btn-danger " id="blackjack-deal-button">DEAL</button>
+                </div>
+              
+            </div>
+
+
+            <div class="flex-blackjack-row-3" style="background-color:  #000000;">
+                <table  style="border : 1px solid white;" >
+                   <tr>
+                       <th>WINS</th>
+                       <th>LOSSES</th>
+                       <th>DRAWS</th>
+                   </tr>
+                   <tr>
+                       <th><span id="wins">0</span></th>
+                       <th><span id="losses">0</span></th>
+                       <th><span id="draws">0</span></th>
+                   </tr>
+                </table>
+            </div>
+       </div>
+
+	
+<script src="home.js" ></script>
+</body> 
+
+</html>
